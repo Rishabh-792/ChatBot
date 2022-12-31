@@ -9,3 +9,8 @@ It is also based on the papers :
 - ["End-To-End Memory Networks"](http://arxiv.org/abs/1503.08895.pdf) by *Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus*
 
 The code is stored in the file `Chat Bot.ipynb` and the data is stored as `train_qa` and `test_qa` in the `data` folder. The trained model is stored as `chatbot.h5` in the `model` folder.
+
+The accuracy for the training set is **~90%** and the validation accuracy is **~80%**.
+
+The training history was also plotted and the plot is given below : 
+![Training history](train.png)
